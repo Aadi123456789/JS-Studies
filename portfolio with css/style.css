@@ -1,0 +1,62 @@
+h1{
+    color:blue;
+}
+h3
+{
+    color:chocolate;
+    
+}
+button{
+    background-color: aqua
+}
+th{
+    padding:5px;
+}
+body{
+
+    background: rgb(252,176,69);
+    background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(254,216,177,1) 50%, rgba(252,176,69,1) 100%);
+    border:red;
+     border-width:5px; 
+     border-style:solid;
+}
+#a1
+{
+    background-color: oldlace;
+    max-width: fit-content;
+    padding:20px;border: 1px solid;
+    
+}
+#a2
+{background-color: oldlace;
+    float: right;
+    margin-right: 50px;
+    padding: 25px 150px 20px 20px;border: 1px solid;
+}
+#a8
+{
+    background-color: oldlace;
+    float: right;
+    margin-right: 50px;
+    padding: 25px 50px 20px 20px;border: 1px solid;
+}
+#a3,#a4,#a5
+{
+    background-color: oldlace;
+    max-width: 520px;
+    padding:20px;
+    box-shadow: 3px;
+    border: 1px solid;
+}
+#a6
+{background-color: oldlace;
+    float: right;
+    margin-right: 300px;
+    padding: 25px 60px 20px 20px;border: 1px solid;
+}
+#a7{
+    background-color: oldlace;
+    float: right;
+    margin-right: 320px;
+    padding: 15px 50px 20px 20px;border: 1px solid;
+}
