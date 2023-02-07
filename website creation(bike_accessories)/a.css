@@ -1,0 +1,12 @@
+#a1{
+    background-color: oldlace; 
+    padding-bottom: 10px;  
+}
+#a2
+{
+    background-color:beige;
+}
+body{
+    background: rgb(255,215,0);
+background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,255,255,1) 50%, rgba(255,215,0,1) 100%);
+}
