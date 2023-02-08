@@ -1,0 +1,55 @@
+body
+{
+    background: rgb(17,158,199);
+background: linear-gradient(90deg, rgba(17,158,199,1) 0%, rgba(12,89,218,1) 0%, rgba(124,8,201,1) 100%);
+
+}
+
+.p
+{
+    display: flex;
+}
+#child
+{
+    border: 2px solid;padding:30px;
+    border-color: pink;
+    box-shadow:10px 10px;
+}
+.child
+{
+    border: 2px solid;
+    padding:30px;
+    border-color: pink;
+    box-shadow:10px 10px;
+}
+#child2
+{
+    border: 2px solid;
+    padding:30px;
+    size:140px;
+}
+.pic:hover{
+    transform:scale(1.10);
+}
+.button2{background-color: yellow;
+    border: none;
+    color: red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2:hover{
+    transform:translateY(3px);
+    background-color:green;
+}
+p{
+    color:black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color:#3B0404;
+}
