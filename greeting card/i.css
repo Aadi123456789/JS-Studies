@@ -1,0 +1,45 @@
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: red;
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px blue;
+  margin: 50px auto;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 10px 10px 20px blue;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: 1px solid blue;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: bisque;
+}
+
+
+
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color:#FFD700;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  color: blue;
+}
+body{
+  background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-birthday-theme-panel-design-picture-image_956857.jpg');
+}
