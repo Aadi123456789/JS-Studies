@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p,h1,h2,h3,h4,h5,h6,div{
+    color:white;
+}
+button {
+    transition: all .5s ease;
+    color: #fff;
+    
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 15px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #001F3F;
+    background-color:orangered;
+}
+
+.container {
+  position: relative;
+  
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fas
+{
+  color: orangered;
+}
