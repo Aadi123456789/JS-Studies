@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Enlarge Circle and Change Border Color on Hover</title>
+	<style>
+		.circle {
+            
+			width: 130px;
+			height: 130px;
+			border-radius: 50%;
+			background-color: red;
+			border: 5px solid black;
+			transition: all 0.5s ease; /* Add a transition effect */
+		}
+
+		.circle:hover {
+			width: 300px;
+			height: 300px;
+			border-color: blue; /* Change the border color to blue on hover */
+		}
+        .circle::before {
+			content: "Touch me";
+            align-content:center;
+        }
+	</style>
+</head>
+<body>
+	<center><div class="circle" style="margin-top: 10%;"></div></center>
+</body>
+</html>

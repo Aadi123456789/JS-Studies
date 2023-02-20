@@ -1,0 +1,76 @@
+lvl 1:
+
+#1)empty set
+const alpha = new Set()
+console.log(alpha)
+
+#2)set using loop
+
+const inte = new Set() 
+for(let i=0;i<10;i++)
+{
+  inte.add(i);
+}
+console.log(inte.size)
+
+#3)remove
+inte.delete(1)
+console.log(inte.size)
+
+#4)clear
+ inte.clear()
+
+#5)set 5 string set
+
+const languages = [
+  'English',
+  'Finnish',
+  'English',
+  'French',
+  'Spanish',
+]
+const langSet = new Set(languages)
+console.log(langSet)
+console.log(langSet.size)
+
+#6)create countries map
+
+countries = [
+  ['Finland', 'Helsinki'],
+  ['Sweden', 'Stockholm'],
+  ['Norway', 'Oslo'],
+]
+const map = new Map(countries)
+console.log(map)
+console.log(map.size)
+
+
+lvl 2
+
+#1)var a = [4, 5, 8, 9];
+      var b = [3, 4, 5, 7];
+     var  A = new Set(a);
+      var B = new Set(a);
+     union = Array.from(a.concat(b));
+      console.log(union);
+
+#2)a = [4, 5, 8, 9];
+       b = [3, 4, 5, 7];
+       A = new Set(a);
+       B = new Set(b);
+       c = [...a, ...b];
+      console.log(new Set(c));
+
+ #3)a = [4, 5, 8, 9];
+       b = [3, 4, 5, 7];
+       A = new Set(a);
+     B = new Set(b);
+       c = a.filter((num) => B.has(num));
+      console.log(new Set(c));
+
+ #4)a = [4, 5, 8, 9];
+       b = [3, 4, 5, 7];
+       A = new Set(a);
+       B = new Set(b);
+       c = a.filter((num) => !B.has(num));
+      console.log(new Set(c));

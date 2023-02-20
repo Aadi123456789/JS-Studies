@@ -1,0 +1,1 @@
+Overall, forEach is used to perform side effects, map is used to transform an array, filter is used to extract elements from an array that meet certain criteria, and reduce is used to accumulate values and return a single value.

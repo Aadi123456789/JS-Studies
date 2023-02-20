@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Change Image on Click</title>
+	<script>
+		function changeImage() {
+			var image = document.getElementById("myImage");
+			if (image.src.match("image1")) {
+				image.src = "https://em-content.zobj.net/thumbs/120/apple/325/see-no-evil-monkey_1f648.png";
+                image.style.backgroundColor = "green";
+			} else {
+				image.src = "https://em-content.zobj.net/thumbs/120/apple/325/hear-no-evil-monkey_1f649.png";
+                image.style.backgroundColor = "green";
+			}
+		}
+	</script>
+</head><center><img id="myImage" style="margin-top: 100px;background-color: red;" src="https://em-content.zobj.net/thumbs/120/apple/325/see-no-evil-monkey_1f648.png" onclick="changeImage()" width="200" height="200"></center>
+</body>
+</html>

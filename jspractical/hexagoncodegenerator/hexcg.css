@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    margin: 0;
+    place-items: center;
+    display: grid;
+}
+
+.a1{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 100%;
+    height: 400px;
+    width: 350px;
+    place-items: center;
+    display: grid;
+
+}
+h2{
+font-family: 'Times New Roman', Times, serif;
+}
+#idea{
+    height: 60px;
+    width: 150px;
+    border:none;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#id1{
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 50px;
+    height: 40px;
+    width: 120px;
+    padding: 0 10px;
+}
