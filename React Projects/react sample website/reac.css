@@ -1,0 +1,34 @@
+*
+{background-color: whitesmoke;
+}
+button{
+    background-color: aliceblue;
+}
+#c1{
+margin-top: 100px;
+margin-right: 60%;
+margin-left: 20%;
+border: 2px solid black;
+margin-bottom: 20px;
+
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+h1{
+    color: brown;
+}
+#c
+{
+    float: right;
+    margin-right: 20%;
+    border: 2px solid black;
+    margin-bottom: 20px;
+
+
+}
+#a1
+{
+    border: 3px solid;
+}
